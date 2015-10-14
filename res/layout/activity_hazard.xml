@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:layout_gravity="center"
+    android:gravity="center">
+	
+    <ImageView
+        android:id="@+id/title_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/hazard" />
+
+    <TextView 
+        android:id="@+id/title_text"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:padding="10dp"
+        android:text="    Post the problems you are facing or saw other people facing as a citizen in your city. Broken roads, flooding drains or risky buildings; let everyone know about it."/>
+    <Button
+        android:layout_marginTop="80dp"
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="All Hazards" 
+        android:background="@drawable/back"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClick2"
+        android:text="Post a Hazard" 
+        android:background="@drawable/back"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>

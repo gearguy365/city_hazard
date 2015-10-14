@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.example.basic.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Broken Roads"/>
+    <item
+        android:id="@+id/action_settings_2"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Lacked Drainage"/>
+    <item
+        android:id="@+id/action_settings_3"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Risky Buildings"/>
+
+</menu>
