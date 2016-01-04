@@ -40,7 +40,7 @@ public class HazardActivity extends Activity {
 
 
 	public static List<Hazard> hazardList;
-	public static String IMG_BASE_URL="http://apphost.byethost7.com/images/";
+	public static String IMG_BASE_URL="http://gearguy.16mb.com/images/";
 
 	public static ListView l;
 	public static ArrayAdapter<Hazard> adapter;
@@ -152,7 +152,7 @@ public class HazardActivity extends Activity {
 
 	public void onClick(View view){
 		if(isOnline()){
-			requestData("http://apphost.byethost7.com/");
+			requestData("http://gearguy.16mb.com/");
 		}
 		else{
 			Toast.makeText(this, "Network Error", Toast.LENGTH_SHORT).show();

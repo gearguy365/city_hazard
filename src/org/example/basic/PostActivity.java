@@ -14,7 +14,7 @@ public class PostActivity extends Activity {
 		setContentView(R.layout.activity_post);
 	}
 	public void onClick(View view){
-		Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://apphost.byethost7.com/formsubmit.php"));
+		Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://gearguy.16mb.com/formsubmit.php"));
 		startActivity(browserIntent);
 	}
 }
